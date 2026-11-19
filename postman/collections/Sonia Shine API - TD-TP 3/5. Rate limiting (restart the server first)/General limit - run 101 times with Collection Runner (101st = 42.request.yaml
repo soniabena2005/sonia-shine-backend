@@ -1,0 +1,7 @@
+$kind: http-request
+name: General limit - run 101 times with Collection Runner (101st = 429)
+url: "{{baseUrl}}/api/products"
+method: GET
+auth:
+  type: noauth
+order: 2000

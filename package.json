@@ -1,0 +1,26 @@
+{
+  "name": "sonia-shine-backend",
+  "version": "1.0.0",
+  "description": "REST API (Node.js, Express, MongoDB, JWT, OAuth2, rate limiting) for the Sonia Shine e-commerce app - WAMD TD-TP 3",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "check": "node scripts/api-check.js",
+    "create-admin": "node src/createAdmin.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.7.0"
+  }
+}

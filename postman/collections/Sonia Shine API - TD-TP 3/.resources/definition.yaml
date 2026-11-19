@@ -1,0 +1,32 @@
+$kind: collection
+description: Import in Postman (or Thunder Client). Start the server first. Run folders 1 -> 4 in order (Collection Runner works). Restart the server before folder 5 (rate limiting) to reset counters.
+variables:
+  - key: baseUrl
+    value: http://localhost:3000
+    disabled: false
+    secret: false
+  - key: token
+    value: ""
+    disabled: false
+    secret: false
+  - key: productId
+    value: ""
+    disabled: false
+    secret: false
+  - key: testEmail
+    value: ""
+    disabled: false
+    secret: false
+  - key: testPassword
+    value: Passw0rd!
+    disabled: false
+    secret: false
+  - key: auth_secret_13au
+    secret: true
+    disabled: false
+  - key: auth_secret_08p5
+    secret: true
+    disabled: false
+  - key: auth_secret_0fiw
+    secret: true
+    disabled: false

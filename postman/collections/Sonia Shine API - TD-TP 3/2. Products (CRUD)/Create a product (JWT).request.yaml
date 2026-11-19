@@ -1,0 +1,27 @@
+$kind: http-request
+url: "{{baseUrl}}/api/products"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Pearl Drop Earrings",
+      "description": "Gold-colored stainless steel earrings with a small pearl.",
+      "price": 450,
+      "category": "Earrings",
+      "imageUrl": "/products/clover-earrings.jpg",
+      "stock": 12
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{token}}"
+scripts:
+  - type: afterResponse
+    code: |-
+      pm.test('Status is 201 Created', () => pm.response.to.have.status(201));
+      pm.collectionVariables.set('productId', pm.response.json().data.id);
+    language: text/javascript
+order: 3000

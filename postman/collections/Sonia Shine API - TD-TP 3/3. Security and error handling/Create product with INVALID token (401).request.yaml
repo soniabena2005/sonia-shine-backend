@@ -1,0 +1,25 @@
+$kind: http-request
+url: "{{baseUrl}}/api/products"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Pearl Drop Earrings",
+      "description": "Gold-colored stainless steel earrings with a small pearl.",
+      "price": 450,
+      "category": "Earrings",
+      "imageUrl": "/products/clover-earrings.jpg",
+      "stock": 12
+    }
+auth:
+  type: bearer
+  credentials:
+    token: "{{auth_secret_13au}}"
+scripts:
+  - type: afterResponse
+    code: pm.test('Status is 401 Unauthorized', () => pm.response.to.have.status(401));
+    language: text/javascript
+order: 2000

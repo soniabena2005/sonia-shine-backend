@@ -1,0 +1,30 @@
+$kind: http-request
+url: "{{baseUrl}}/api/products"
+method: POST
+headers:
+  Content-Type: application/json
+body:
+  type: json
+  content: |-
+    {
+      "name": "Pearl Drop Earrings",
+      "description": "Gold-colored stainless steel earrings with a small pearl.",
+      "price": 450,
+      "category": "Earrings",
+      "imageUrl": "/products/clover-earrings.jpg",
+      "stock": 12
+    }
+auth:
+  type: oauth2
+  credentials:
+    clientId: "{{auth_secret_08p5}}"
+    accessTokenUrl: https://oauth2.googleapis.com/token
+    authUrl: https://accounts.google.com/o/oauth2/v2/auth
+    addTokenTo: header
+    challengeAlgorithm: S256
+    clientSecret: "{{auth_secret_0fiw}}"
+    scope: openid email profile
+    redirect_uri: https://oauth.pstmn.io/v1/callback
+    grant_type: authorization_code_with_pkce
+    useBrowser: true
+order: 1000

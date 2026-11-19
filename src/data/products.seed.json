@@ -1,0 +1,130 @@
+[
+  {
+    "name": "Evil Eye Necklace",
+    "description": "A fine gold chain with a small blue evil-eye charm.",
+    "price": 600,
+    "category": "Necklaces",
+    "imageUrl": "/products/evil-eye-necklace.jpg",
+    "stock": 17
+  },
+  {
+    "name": "Layered Necklace Trio",
+    "description": "Three chains to wear together, finished with a sparkling stone.",
+    "price": 1500,
+    "category": "Necklaces",
+    "imageUrl": "/products/layered-necklaces.jpg",
+    "stock": 24
+  },
+  {
+    "name": "Clover Earrings",
+    "description": "Clover-shaped earrings with a fine engraved sunburst.",
+    "price": 200,
+    "category": "Earrings",
+    "imageUrl": "/products/clover-earrings.jpg",
+    "stock": 31
+  },
+  {
+    "name": "Crystal Hoop Earrings",
+    "description": "Classic gold hoops with a band of sparkling crystals.",
+    "price": 500,
+    "category": "Earrings",
+    "imageUrl": "/products/crystal-hoops.jpg",
+    "stock": 13
+  },
+  {
+    "name": "Chunky Bangle Set",
+    "description": "Four bold bangles in gold, marble and amber tones.",
+    "price": 1900,
+    "category": "Bracelets",
+    "imageUrl": "/products/bangle-set.jpg",
+    "stock": 20
+  },
+  {
+    "name": "Seashell Charm Bracelet",
+    "description": "Gold chain bracelet with shells, a turtle and a starfish.",
+    "price": 800,
+    "category": "Bracelets",
+    "imageUrl": "/products/charm-bracelet.jpg",
+    "stock": 27
+  },
+  {
+    "name": "Flower Cuff Bracelet",
+    "description": "An open cuff made of engraved gold flowers.",
+    "price": 800,
+    "category": "Bracelets",
+    "imageUrl": "/products/flower-cuff.jpg",
+    "stock": 34
+  },
+  {
+    "name": "Textured Gold Hoops",
+    "description": "Chunky hoops with a light-catching textured finish.",
+    "price": 300,
+    "category": "Earrings",
+    "imageUrl": "/products/item-300.jpg",
+    "stock": 16
+  },
+  {
+    "name": "Heart Set",
+    "description": "Matching heart necklace, bracelet and earrings.",
+    "price": 1200,
+    "category": "Sets",
+    "imageUrl": "/products/heart-set.jpg",
+    "stock": 23
+  },
+  {
+    "name": "Oval Bangle Watch",
+    "description": "An oval dial with Roman numerals on a gold bangle.",
+    "price": 3000,
+    "category": "Watches",
+    "imageUrl": "/products/oval-bangle-watch.jpg",
+    "stock": 30
+  },
+  {
+    "name": "Sun Pendant Necklace",
+    "description": "A swirling sun pendant on a smooth snake chain.",
+    "price": 700,
+    "category": "Necklaces",
+    "imageUrl": "/products/sun-necklace.jpg",
+    "stock": 12
+  },
+  {
+    "name": "Stackable Ring Set",
+    "description": "Six adjustable rings in different textures, made to be stacked.",
+    "price": 600,
+    "category": "Rings",
+    "imageUrl": "/products/ring-set.jpg",
+    "stock": 19
+  },
+  {
+    "name": "Padded Headband Set",
+    "description": "Four soft padded headbands in black, brown, beige and ivory.",
+    "price": 1000,
+    "category": "Hair",
+    "imageUrl": "/products/headbands.jpg",
+    "stock": 26
+  },
+  {
+    "name": "Leather Strap Watch Duo",
+    "description": "Two oval watches, one with a black strap and one with a brown strap.",
+    "price": 1800,
+    "category": "Watches",
+    "imageUrl": "/products/leather-watches.jpg",
+    "stock": 33
+  },
+  {
+    "name": "Gold Chain Watch",
+    "description": "A slim oval watch on a gold link bracelet.",
+    "price": 1800,
+    "category": "Watches",
+    "imageUrl": "/products/chain-watch.jpg",
+    "stock": 15
+  },
+  {
+    "name": "Watch and Bracelet Duo",
+    "description": "A gold watch with a matching sequin chain bracelet.",
+    "price": 2000,
+    "category": "Watches",
+    "imageUrl": "/products/watch-bracelet.jpg",
+    "stock": 22
+  }
+]
